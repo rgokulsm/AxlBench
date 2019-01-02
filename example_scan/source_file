@@ -1,0 +1,6 @@
+make
+./example_double_v8 > goku
+cat goku | awk '{print $1}' > x_x_gokul_1
+cat goku | awk '{print $2}' > x_x_gokul_2
+python qos_original.py x_x_gokul_1 x_x_gokul_2 
+

@@ -1,0 +1,605 @@
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_0.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_1.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_2.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_3.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_4.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_5.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_6.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_7.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_8.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_9.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_10.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_11.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_12.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_13.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_14.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_15.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_16.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_17.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_18.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_19.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_20.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_21.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_22.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_23.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_24.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_25.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_26.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_27.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_28.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_29.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_30.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_31.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_32.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_33.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_34.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_35.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_36.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_37.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_38.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_39.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_40.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_41.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_42.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_43.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_44.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_45.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_46.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_47.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_48.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue
+
+executable = /bin/sh 
+arguments = /research/sgokul/bHive/example_kmeans/job_-1.sh
+initialdir = /research/sgokul/bHive/example_kmeans
+output = /research/sgokul/bHive/example_kmeans/gem5sim.out
+error = /research/sgokul/bHive/example_kmeans/gem5sim.err
+log = /research/sgokul/bHive/example_kmeans/gem5sim.log
+Rank=TARGET.Mips
+universe = vanilla
+Requirements = (Machine != "iris-12.ece.wisc.edu")
+getenv = true
+queue

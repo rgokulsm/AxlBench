@@ -1,0 +1,3 @@
+make
+./example_marked_v12 1024 golu
+python qos_original.py 1golu 12_goku 

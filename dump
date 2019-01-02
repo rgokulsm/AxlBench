@@ -1,0 +1,151 @@
+Binary files src/libsoftinj.a and src_backup/libsoftinj.a differ
+Binary files src/libsoftinj.so and src_backup/libsoftinj.so differ
+diff -r src/softinj.cc src_backup/softinj.cc
+148,156d147
+< //void
+< //  gokul_reinitializeFaultModels(int re_voltage)
+< //  {
+< //     voltageLevel = re_voltage;
+< //
+< //  }
+< 
+< 
+< 
+392c383
+<   fault_injection(Result r, int op_code, int op_type, int v)
+---
+>   fault_injection(Result r, int op_code, int op_type)
+394c385
+<     int voltage = v; //softinj::voltageLevel;
+---
+>     int voltage = softinj::voltageLevel;
+diff -r src/softinj.hh src_backup/softinj.hh
+84c84
+<   MNEMONIC(WD_TYPE a, int v)							\
+---
+>   MNEMONIC(WD_TYPE a)							\
+94c94
+<     result = fault_injection(result, WD_OPCODE, WD_OP_TYPE, v);		\
+---
+>     result = fault_injection(result, WD_OPCODE, WD_OP_TYPE);		\
+101c101
+<   MNEMONIC(WD_TYPE a, WD_TYPE b, int v)					\
+---
+>   MNEMONIC(WD_TYPE a, WD_TYPE b)					\
+111c111
+<     result = fault_injection(result, WD_OPCODE, WD_OP_TYPE, v);		\
+---
+>     result = fault_injection(result, WD_OPCODE, WD_OP_TYPE);		\
+118c118
+<   MNEMONIC(WD_TYPE a, WD_TYPE b, WD_TYPE c, int v)				\
+---
+>   MNEMONIC(WD_TYPE a, WD_TYPE b, WD_TYPE c)				\
+128c128
+<     result = fault_injection(result, WD_OPCODE, WD_OP_TYPE, v);		\
+---
+>     result = fault_injection(result, WD_OPCODE, WD_OP_TYPE);		\
+249d248
+< //  void gokul_reinitializeFaultModels(int voltage);
+256c255
+<   Result fault_injection(Result r, int op_code, int voltage);
+---
+>   Result fault_injection(Result r, int op_code);
+260,262c259,261
+<   short ADD(short  a, short   b, int voltage);
+<   int  ADD(int  a, int   b, int voltage);
+<   long ADD(long a, long  b, int voltage);
+---
+>   short ADD(short  a, short   b);
+>   int  ADD(int  a, int   b);
+>   long ADD(long a, long  b);
+264,266c263,265
+<   short  SUB(short  a, short   b, int voltage);
+<   int  SUB(int  a, int   b, int voltage);
+<   long SUB(long a, long  b, int voltage);
+---
+>   short  SUB(short  a, short   b);
+>   int  SUB(int  a, int   b);
+>   long SUB(long a, long  b);
+268,270c267,269
+<   short  MOV(short  a, int voltage);
+<   int  MOV(int  a, int voltage);
+<   long MOV(long a, int voltage);
+---
+>   short  MOV(short  a);
+>   int  MOV(int  a);
+>   long MOV(long a);
+272,274c271,273
+<   short  OR(short  a, short   b, int voltage);
+<   int  OR(int  a, int   b, int voltage);
+<   long OR(long a, long  b, int voltage);
+---
+>   short  OR(short  a, short   b);
+>   int  OR(int  a, int   b);
+>   long OR(long a, long  b);
+276,278c275,277
+<   short  AND(short  a, short   b, int voltage);
+<   int  AND(int  a, int   b, int voltage);
+<   long AND(long a, long  b, int voltage);
+---
+>   short  AND(short  a, short   b);
+>   int  AND(int  a, int   b);
+>   long AND(long a, long  b);
+280,282c279,281
+<   short  XOR(short  a, short   b, int voltage);
+<   int  XOR(int  a, int   b, int voltage);
+<   long XOR(long a, long  b, int voltage);
+---
+>   short  XOR(short  a, short   b);
+>   int  XOR(int  a, int   b);
+>   long XOR(long a, long  b);
+285,287c284,286
+<   short  MUL(short  a, short   b, int voltage);
+<   int  MUL(int  a, int   b, int voltage);
+<   long MUL(long a, long  b, int voltage);
+---
+>   short  MUL(short  a, short   b);
+>   int  MUL(int  a, int   b);
+>   long MUL(long a, long  b);
+289,291c288,290
+<   short  MLA(short  a, short   b, short c, int voltage);
+<   int  MLA(int  a, int   b, int c, int voltage);
+<   long MLA(long a, long  b, long c, int voltage);
+---
+>   short  MLA(short  a, short   b, short c);
+>   int  MLA(int  a, int   b, int c);
+>   long MLA(long a, long  b, long c);
+293c292
+<   // Floating Point (Single/Double Precision, int voltage)
+---
+>   // Floating Point (Single/Double Precision)
+300,301c299,300
+<   //float  ADD(float  a, float  b, int voltage);
+<   double ADD(double a, double b, int voltage);
+---
+>   //float  ADD(float  a, float  b);
+>   double ADD(double a, double b);
+303,304c302,303
+<   //float  SUB(float  a, float  b, int voltage);
+<   double SUB(double a, double b, int voltage);
+---
+>   //float  SUB(float  a, float  b);
+>   double SUB(double a, double b);
+306,307c305,306
+<   //float  MUL(float  a, float  b, int voltage);
+<   double MUL(double a, double b, int voltage);
+---
+>   //float  MUL(float  a, float  b);
+>   double MUL(double a, double b);
+309,310c308,309
+<   //float  MLA(float  a, float  b, float  c, int voltage);
+<   double MLA(double a, double b, double c, int voltage);
+---
+>   //float  MLA(float  a, float  b, float  c);
+>   double MLA(double a, double b, double c);
+312,313c311,312
+<   //float  DIV(float  a, float  b, int voltage);
+<   double DIV(double a, double b, int voltage);
+---
+>   //float  DIV(float  a, float  b);
+>   double DIV(double a, double b);
+Binary files src/softinj.o and src_backup/softinj.o differ

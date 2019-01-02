@@ -1,0 +1,3 @@
+make
+./example_marked_v12 theta_100K.data goku
+python qos_original.py 0goku 12_goku 
