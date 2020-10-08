@@ -6,4 +6,6 @@ The error is modelled within the application itself via considering compute/memo
 Finally gradient descent is used to optimize the error-vs-ipc metric - so that the approximation is tuned for maximum increase in ipc for minimum increase in error.
 Most directories contain RUN/COMPILE options to provide details for running and compiling these benchmarks.
 
+Please refer / cite SHASTA (TACO '20) - https://dl.acm.org/doi/10.1145/3412375
+
  
